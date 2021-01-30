@@ -35,3 +35,11 @@ Wskazówka: Liczba e = 1+1/1!+1/2!+...+1/n!+...=2.7172... może być
 obliczona jako suma elementów ciągu x_0, x_1, x_2, ..., gdzie x_0=1, x_1
 = 1+ 1/1!, x_2 =1+1/1!+1/2!, ..., przy czym sumowanie kontynuowane jest
 tak długo jak długo zachodzi warunek |x_(i+1)-x_i|>=eps.
+
+
+
+1.    Program #1 jest zrobiona w jęz. C11. Więc, kompilujemy za pomocy gcc 
+2.    Program #3 zarówno program #6 stosują C++ 2011 standart. Więc, jeżeli użyje Pan coś innego, to programy nie przejdą fazy kompilacji. Uprzejmie proszę użyć polecenie:
+    g++ --std=c++11 dmyterko_zad_#.cpp
+3.    Wielokrotnie próbowałem przesłać dmyterko_zad_6.cpp na Teams, i za każdym razem Teams przemianuje na dmyterko_zad_6 1.cpp, dmyterko_zad_6 2.cpp, dmyterko_zad_6 3.cpp 
+    To chyba jakiś błąd w systemie Teams
